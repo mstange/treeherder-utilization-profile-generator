@@ -1,0 +1,12 @@
+[package]
+name = "treeherder-utilization-profile-generator"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+csv = "1.3.1"
+fxprof-processed-profile = { git = "https://github.com/mstange/samply", rev = "004b4e8049fc49adad211bc461e06fa38d4a6ec2" }
+rustc-hash = "2.1.1"
+serde = "1.0.219"
+serde_derive = "1.0.219"
+serde_json = "1.0.140"
